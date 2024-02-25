@@ -1,5 +1,5 @@
 body {
-    background-color: #0cdbeb;
+    background-color: #00619F;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -15,7 +15,7 @@ nav ul {
     align-items: center;
     list-style-type: none;
     margin-bottom: -1em;
-    background-color: #037154;
+    background-color: #00BFD9;
 }
 
 nav a {
@@ -28,12 +28,11 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #008360
+    background-color: #044665
 }
 
 .watertap,
-.map,
-.logo {
+.map {
     background-color: white;
     padding: 0.5em;
     display: block;
@@ -43,7 +42,7 @@ nav a:hover {
 }
 
 .logo {
-    width: 3em;
+    width: 6em;
     padding: 0em;
 }
 
@@ -54,23 +53,25 @@ nav a:hover {
 
 header,
 footer {
-    background-color: #0ce8af;
+    background-color: #022E4A;
     margin-top: -0.5em;
     margin-left: -0.5em;
     margin-right: -0.5em;
+    margin-bottom: 0em;
 }
 
-footer {
-    background-color: #037154;
+h1 {
+    color: white;
+    text-align: end;
+    font-family: "Showcard Gothic";
+    margin-top: -2em;
+    margin-right: 1em;
 }
 
-h1,
+
 p {
     color: white;
     text-align: center;
-    font-family: "Showcard Gothic";
-}
-
-p {
     font-family: "Britannic Bold";
+    margin-top: 3em;
 }
